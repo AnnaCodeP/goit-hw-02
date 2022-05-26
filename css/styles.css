@@ -94,7 +94,7 @@ body {
 
 /* Hero section */
 .hero {
-  color: var(--hero-color)
+  background-color: var(--hero-color);
   height: 600px;
   width: 1600px;
   left: 0px;
@@ -116,8 +116,9 @@ body {
 
 }
 
-.button .button {
-  color: var(--accent-color)
+.button {
+  color: var(--logo-accent-color);
+  background-color: var(--accent-color);
   font-family: Roboto;
   font-style: 400;
   font-size: 16px;
@@ -130,8 +131,8 @@ body {
   
 }
 
-.button .button :hover,
-.button .button :focus {
+.button :hover,
+.button :focus {
  background-color: var(--accent-color);
 
 }
@@ -199,7 +200,7 @@ body {
 /* Footer section */
 
 .footer {
-  color: var(--hero-color);
+  background-color: var(--hero-color);
   font-family: Roboto;
   height: 252px;
   width: 1600px;
