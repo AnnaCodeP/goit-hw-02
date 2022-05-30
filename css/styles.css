@@ -120,7 +120,7 @@ body {
 }
 .button :hover,
 .button :focus {
- background-color: var(--accent-color);
+ background-color: #188CE8;
 
 }
 /* Features */
