@@ -219,6 +219,7 @@ body {
 .footer address {
   color: var(--title-color);
   font-style: normal;
+  margin-left: 16px;
 }
  /* portfolio */
 
@@ -234,6 +235,11 @@ body {
 .potfolio-btns-button :focus { 
   background: var(--accent-color);
 }
+.portfolio-section-title {
+
+
+}
+
 
 /*цвет основноого текста: #212121;
 
