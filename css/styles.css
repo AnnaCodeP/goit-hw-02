@@ -74,6 +74,7 @@ body {
 .contacts .link {
   color: var(--contacts-color);
   text-decoration: none;
+  font-weight: 500;
 
 }
 
@@ -164,6 +165,20 @@ body {
 
 /* Team section */
 
+.section-company {
+
+  background: #F5F4FA;
+}
+
+.section-title-lider {
+    color: var(--title-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
 .team-section .title {
   color: var(--title-text-color);
   font-size: 16px;
@@ -174,6 +189,13 @@ body {
 
 }
 
+.profession {
+  color: var(--contacts-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+}
 .contacts-link {
   color: var(--contacts-color);
 }
@@ -189,7 +211,7 @@ body {
   
 }
  .contacts-link {
-  color: var(--contacts-color);
+  color: #FFFFFF99;;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
