@@ -219,8 +219,8 @@ body {
 .footer address {
   color: var(--title-color);
   font-style: normal;
-  margin-left: 16px;
 }
+  
  /* portfolio */
 
 .portfolio-btns {
@@ -229,13 +229,20 @@ body {
     line-height: 1.6px;
     letter-spacing: 0.03em;
     border-radius: 4px;
+    
 
 }
-.potfolio-btns-button :hover,
-.potfolio-btns-button :focus { 
+.portf-nav-button :hover,
+.portf-nav-button :focus{ 
   background: var(--accent-color);
+
 }
 .portfolio-section-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
 
 
 }
