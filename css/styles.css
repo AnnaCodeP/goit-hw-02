@@ -188,7 +188,6 @@ body {
 
 .footer {
   background-color: var(--hero-color);
-  height: 252px;
   width: 1600px;
   left: 0px;
   top: 2097px;
@@ -204,8 +203,8 @@ body {
   display: block;
 
 }
-.footer-contacts-link .link:hover,
-.footer-contacts-link .link:focus {
+.footer-contacts-link.link :hover,
+.footer-contacts-link.link :focus {
   color: var(--accent-color);
 
 }
@@ -219,6 +218,7 @@ body {
 
 .footer address {
   color: var(--title-color);
+  font-style: normal;
 }
  /* portfolio */
 
