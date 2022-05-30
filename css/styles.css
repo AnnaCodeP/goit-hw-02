@@ -23,12 +23,6 @@ body {
   border-radius: 0px;
   
 } 
-
-.page-header-nav {
-
-
-}
-
 .page-header .link:hover ,
 .page-header .link:focus {
   color: var(--accent-color);
@@ -224,27 +218,55 @@ body {
  /* portfolio */
 
 .portfolio-btns {
+    background: var(--team-color);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.6px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
+    border: none;
     border-radius: 4px;
+    text-align: center;
+    padding: 6px 22px;
+    font-family: inherit;
     
-
 }
-.portf-nav-button :hover,
-.portf-nav-button :focus{ 
-  background: var(--accent-color);
-
+.portfolio-btns:hover,
+.portfolio-btns:focus {
+   background-color: var(--accent-color);
+   color: var(--title-color);
 }
+
+
+
 .portfolio-section-title {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
     text-align: left;
+}
 
-
+.link {
+  text-decoration: none;
+  
+}
+.portfolio-text {
+    color: var(--contacts-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.section-title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
 }
 
 
