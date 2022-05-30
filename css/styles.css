@@ -11,13 +11,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e5e5e5;
+    background-color: var(--title-color);
     letter-spacing: 0.03em;
     font-size: 14px;
 }
 
 .page-header {
-  height: 80px;
   width: 1600px;
   left: 0px;
   top: 0px;
@@ -202,6 +201,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: 0;
+  display: block;
 
 }
 .footer-contacts-link .link:hover,
